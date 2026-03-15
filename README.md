@@ -1,8 +1,8 @@
-# TP4-DEVOPS
+# TP5-DEVOPS
 
 > **Master II BDCC** — Big Data et Cloud Computing
 > **Author:** Abdelkarim
-> **Lab:** TP4 — CI/CD Pipeline with Docker & Jenkins
+> **Lab:** TP5 — CI/CD Pipeline with Docker & Jenkins
 
 ---
 
@@ -38,7 +38,7 @@ The lab covers four Jenkins job types, progressing from simple freestyle jobs to
 ## Project Structure
 
 ```
-TP4-DEVOPS/
+TP5-DEVOPS/
 ├── Dockerfile        # Builds an Nginx image with the custom index.html
 ├── Jenkinsfile       # Declarative pipeline definition
 ├── index.html        # Static web page (BDCC welcome page)
@@ -56,7 +56,7 @@ TP4-DEVOPS/
 docker build -t abdelkarim12/tp4 .
 
 # Run the container
-docker run -d --name tp4container -p 8081:80 abdelkarim12/tp4
+docker run -d --name tp4container -p 8081:80 abdelkarim12/tp5
 ```
 
 Then open [http://localhost:8081](http://localhost:8081) in your browser.
@@ -66,7 +66,7 @@ Then open [http://localhost:8081](http://localhost:8081) in your browser.
 1. Create a **Pipeline** job in Jenkins.
 2. Under **Pipeline > Definition**, select **Pipeline script from SCM**.
 3. Set the SCM to **Git** and enter the repository URL:
-   `https://github.com/Elhajbi/TP4-DEVOPS.git`
+   `https://github.com/Elhajbi/TP5-DEVOPS.git`
 4. Enable **Poll SCM** (e.g., `* * * * *`) for automatic build triggers.
 5. Save and build.
 
