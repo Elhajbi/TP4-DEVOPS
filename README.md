@@ -118,10 +118,10 @@ Four jobs were created throughout this lab to demonstrate different Jenkins appr
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Job Configuration](#) | Jenkins job configuration |
-| ![Stage View](#) | Pipeline Stage View with build history |
-| ![Docker Hub](#) | Published images on Docker Hub |
-| ![Web App](#) | Application running on localhost:8081 |
+| ![Job Configuration](screenshots/job-config.png) | Jenkins job configuration |
+| ![Stage View](screenshots/stage-view.png) | Pipeline Stage View with build history |
+| ![Docker Hub](screenshots/dockerhub.png) | Published images on Docker Hub |
+| ![Web App](screenshots/webapp.png) | Application running on localhost:8081 |
 
 ---
 
